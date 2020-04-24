@@ -51,13 +51,14 @@ header nav ul li a
 }
 header
 {
- border-color:#c00000;
+ border-color:#560101;
  border-style: outset;
 }
 header nav ul li a:hover,header nav ul li a.active
 {
   text-decoration:none;
-  background-color:#c00000;	
+  color:white;
+  background-color:#560101;	
 }
 .menu-toggle
 {
