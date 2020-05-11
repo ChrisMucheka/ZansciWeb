@@ -19,3 +19,82 @@ background-size:cover;
 {
  height:40%;
 }
+.btn-curved
+{
+color:whitesmoke;
+background-color: #560101;
+border-radius: 20px;
+
+}
+.btn-curved:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.btn-curved:hover 
+{
+  color:white;
+  padding-right: 25px;
+}
+
+.btn-curved-hover:hover {
+  background-color: #560101;
+  color:white;  
+  padding-right: 25px;
+}
+
+.btn-curved:hover :after {
+  opacity: 1;
+  right: 0;
+}
+.gray
+{
+background-color:#fafafa;
+color:black;
+border-radius:20px;
+}
+.marron-text
+{
+color:#560101;
+}
+.section-background
+{
+background: url(../img/bg.jpeg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+
+    .card-intro .card-body {
+      height:100%;
+      padding-top: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-radius: 0 !important;
+    }
+
+    .card-intro .card-body h1 {
+      margin-bottom: 0;
+    }
+
+    .card-intro {
+height:100%;
+      margin-top: 75px;
+    }
+
+    @media (max-width: 450px) {
+      .card-intro {
+        margin-top: 66px;
+      }
+    }
+
+    @media (min-width: 1441px) {
+      .card-intro {
+        padding-left: 0 !important;
+      }
+    }
