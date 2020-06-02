@@ -19,6 +19,10 @@ background-size:cover;
 {
  height:40%;
 }
+.header-bg-inner
+{
+ height:5%;
+}
 .btn-curved
 {
 color:whitesmoke;
